@@ -6,7 +6,8 @@
   --color-black-transparent:  rgba(0, 0, 0, 0.5);
   --color-white-transparent: rgba(255, 255, 255, 0.7);
   --color-shadow: rgba(0, 0, 0, 0.5);
-  --filter-blur: blur(6px)
+  --filter-blur: blur(6px);
+  --swiper-pagination-color: var(--color-dark);
 }
 
 * {
@@ -70,11 +71,11 @@ button:hover {
 
 .container {
   margin: 0 auto;
-  padding: 0 .75rem;
 
   @media (max-width: 576px) {
     max-width: 100%;
     width: 100%;
+    padding: 20px;
   }
 
   @media (min-width: 576px) {

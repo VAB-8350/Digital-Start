@@ -1,6 +1,10 @@
 .body {
   display: flex;
   flex-direction: column;
-  gap: 200px;
+  gap: 150px;
   margin-bottom: 100px;
+
+  @media (max-width: 992px) {
+    gap: 50px;
+  }
 }
