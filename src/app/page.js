@@ -15,6 +15,8 @@ export default function Home() {
       <FirstView />
 
       <main className={Style.body}>
+        <img className={Style.background1} src='/background1.png' alt='background image' />
+        <img className={Style.background2} src='/background2.png' alt='background image' />
         <AboutUs />
 
         <Steps />

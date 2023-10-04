@@ -1,10 +1,41 @@
 .body {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 150px;
   margin-bottom: 50px;
 
+
   @media (max-width: 992px) {
     gap: 50px;
+  }
+
+  .background1, .background2 {
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+
+    @media (min-width: 768px) {
+      width: 100vw;
+    }
+  }
+
+  .background1 {
+    top: -3%;
+    left: -120%;
+
+    @media (min-width: 768px) {
+      left: 0;
+      top: 2%;
+    }
+  }
+
+  .background2 {
+    top: 50%;
+
+    @media (max-width: 768px) {
+      right: 0;
+      top: 53%;
+    }
   }
 }

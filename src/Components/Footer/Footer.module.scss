@@ -6,6 +6,10 @@
   img {
     width: 100vw;
     height: 300px;
+
+    @media (max-width: 768px) {
+      object-fit: cover;
+    }
   }
 
   .content {

@@ -43,7 +43,7 @@ export default function Demos() {
   }, [])
 
   const resizeHandler = () => {
-    const widthScreen = window.innerWidth
+    const widthScreen = window.outerWidth
     widthScreen >= 992 ? setDevice('desktop') : setDevice('mobile')
   }
 
