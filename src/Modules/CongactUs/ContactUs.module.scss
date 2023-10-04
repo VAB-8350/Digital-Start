@@ -1,0 +1,82 @@
+.contact-section {
+  display: flex;
+  gap: 90px;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 28px 30px;
+    width: 480px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(5px);
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      input, textarea {
+        background-color: transparent;
+        outline: none;
+        font-size: 1.4rem;
+
+        &::placeholder {
+          color: rgba(0, 0, 0, 0.20);
+          font-size: 1.4rem;
+          font-weight: 700;
+        }
+      }
+
+      label {
+        color: var(--color-dark);
+        font-size: 1.4rem;
+        font-weight: 700;
+        margin-bottom: 18px;
+      }
+
+      input {
+        border: none;
+        border-bottom: 1px solid rgba($color: #000, $alpha: .2);
+      }
+
+      textarea {
+        min-width: 100%;
+        height: 220px;
+        border-radius: 10px;
+        border: 1px solid rgba($color: #000, $alpha: .2);
+        padding: 10px 13px;
+      }
+    }
+
+    button {
+      background-color: var(--color-main);
+      border-radius: 100px;
+      padding: 9px;
+      color: var(--dark, #333);
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+  }
+
+  .icon-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--color-dark);
+      font-weight: 600;
+      font-size: 1.6rem;
+
+      svg {
+        height: 45px;
+        width: 45px;
+      }
+    }
+  }
+}

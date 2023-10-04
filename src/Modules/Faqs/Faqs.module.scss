@@ -1,0 +1,39 @@
+.faq-section {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  align-items: center;
+  width: 100%;
+
+  & > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    row-gap: 70px;
+
+    @media (max-width: 992px) {
+      grid-template-columns: 1fr;
+    }
+
+
+    article {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 60%;
+      margin: 0 auto;
+
+      @media (max-width: 992px) {
+        width: 100%;
+      }
+
+      h4 {
+        text-align: center;
+        color: var(--color-dark);
+        font-family: var(--font-nunito);
+        font-size: 1.6rem;
+        font-weight: 700;
+      }
+    }
+  }
+}
