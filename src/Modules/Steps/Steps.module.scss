@@ -26,6 +26,31 @@
         text-align: center;
       }
     }
+
+    .step-0 {
+      @keyframes show1 {
+        from {
+          opacity: 0;
+          translate: 0 100%;
+        }
+
+        to {
+          translate: 0 0%;
+          opacity: 1;
+        }
+      }
+
+      view-timeline-axis: block;
+      animation-timeline: --body;
+      animation-name: show1;
+      animation-range: entry 0% cover 40%;
+    }
+    .step-2 {
+
+    }
+    .step-3 {
+
+    }
   }
 
   @media (max-width: 992px) {

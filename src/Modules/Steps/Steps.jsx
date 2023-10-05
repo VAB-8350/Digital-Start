@@ -21,10 +21,10 @@ const stepsInfo = [
 
 export default function Steps() {
 
-  const structureStep = ({img, title, text}) => {
+  const structureStep = ({img, title, text, index}) => {
 
     return (
-      <article className={Style.step}>
+      <article className={`${Style.step} ${Style[`step-${index}`]}`}>
         <picture>
           <img src={img} alt='imagen del paso a seguir' />
         </picture>
@@ -40,7 +40,7 @@ export default function Steps() {
 
       <div className={Style.steps}>
         {
-          stepsInfo.map((step) => structureStep(step))
+          stepsInfo.map((step, index) => structureStep(step, index))
         }
       </div>
 
