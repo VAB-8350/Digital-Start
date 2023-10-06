@@ -7,7 +7,7 @@ export default function ActionBtn() {
 
   const sectionScroll = () => {
     const element = document.getElementById('contact-us')
-    element.scrollIntoView('alignToTop')
+    element.scrollIntoView(false)
   }
 
   return (

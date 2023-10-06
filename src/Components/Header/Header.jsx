@@ -23,6 +23,10 @@ export default function Header() {
   const sectionScroll = (id) => {
     const element = document.getElementById(id)
     element.scrollIntoView(true)
+
+    setTimeout(() => {
+      window.scrollBy({top: -80, behavior: 'smooth'})
+    },1500)
     setOpenMenu(false)
   }
 
