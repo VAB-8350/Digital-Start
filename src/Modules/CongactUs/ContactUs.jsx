@@ -52,7 +52,7 @@ export default function ContactUs() {
   return (
     <section className={`container ${Style['contact-section']}`}>
 
-      <form ref={formRef} onSubmit={sendEmail} className={Style.form}>
+      <form id='contact-us' ref={formRef} onSubmit={sendEmail} className={Style.form}>
         <div>
           <label htmlFor="from_name">Nombre</label>
           <input type="text" name="from_name" id="from_name" placeholder='Andres Barilin' />
@@ -65,7 +65,7 @@ export default function ContactUs() {
 
         <div>
           <label htmlFor="message">Mensaje</label>
-          <textarea name='message' placeholder='Escribe tu mensaje en esta seccion.'/>
+          <textarea name='message' placeholder='Escribe tu mensaje en esta sección.'/>
         </div>
 
         <button type="submit" id="button">
@@ -74,7 +74,7 @@ export default function ContactUs() {
       </form>
 
       <div className={Style['icon-section']}>
-        <h2 className='subtitle'>Informacion de contacto</h2>
+        <h2 className='subtitle'>Información de contacto</h2>
         <a target='_blank' href='mailto:victor.barilin2014@gmail.com'><IconMail /> victor.barilin@gmail.com</a>
         <a target='_blank' href='#'><IconPhone /> 3584235967</a>
         <a target='_blank' href='#'><IconBrandInstagram /> @andres_barilin</a>

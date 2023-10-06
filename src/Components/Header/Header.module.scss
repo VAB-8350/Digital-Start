@@ -10,13 +10,13 @@
   backdrop-filter: var(--filter-blur);
   box-shadow: 0 0 10px var(--color-shadow);
 
-  @media (min-width: 992px) {
+  @media (min-width: 1200px) {
     justify-content: center;
     background-color: var(--color-white-transparent);
   }
 
   .logo {
-    @media (min-width: 992px) {
+    @media (min-width: 1200px) {
       position: absolute;
       left: 50px;
     }
@@ -30,7 +30,7 @@
   .header-nav {
     height: fit-content;
 
-    @media (max-width: 992px) {
+    @media (max-width: 1200px) {
 
       &.show ul {
         transform: translate(0, 40px);
@@ -49,7 +49,7 @@
       display: flex;
       gap: 20px;
 
-      @media (max-width: 992px) {
+      @media (max-width: 1200px) {
         flex-direction: column;
         position: absolute;
         right: 0;
@@ -61,7 +61,7 @@
       }
 
       li {
-        a{
+        button{
           font-family: var(--font-Nunito);
           font-size: 1.6rem;
           font-weight: 700;
@@ -87,7 +87,7 @@
       height: 30px;
     }
 
-    @media (max-width: 992px) {
+    @media (max-width: 1200px) {
       display: inline-block;
     }
   }

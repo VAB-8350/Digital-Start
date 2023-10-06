@@ -49,9 +49,9 @@ export default function Demos() {
 
   return (
     <section className={`container ${Style['demo-section']}`}>
-      <h2 className='subtitle'>Demos</h2>
+      <h2 id='demos' className='subtitle'>Demos</h2>
       <p>
-        Conoce todas nuestras plantillas para saber cual se adapta mejor a tus necesidades, puedes hacer click en cualquiera de ellas para observar un sitio web demo y poder interactuar, recuerda que si ves un modulo que esta en una y te gustaria tenerlo en otra esto es posible.
+        Conoce todas nuestras plantillas para saber cuál se adapta mejor a tus necesidades, puedes hacer click en cualquiera de ellas para observar un sitio web demo y poder interactuar, recuerda que si ves un modulo que esta en una y te gustaría tenerlo en otra esto es posible.
       </p>
 
       {

@@ -94,6 +94,7 @@
         color: var(--color-dark);
         backdrop-filter: var(--filter-blur);
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        border: 2px solid transparent;
         transition: .3s;
 
         svg {
@@ -101,8 +102,8 @@
         }
 
         &:hover {
-          // background-color: rgba(134, 76, 226, 0.7);
-          background-color: var(--color-white);
+          color: var(--color-main);
+          background-color: var(--color-dark);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
           transform: scale(1.05);
         }
@@ -118,6 +119,7 @@
         }
 
         &:hover {
+          color: var(--color-white);
           background-color: var(--color-dark);
         }
       }

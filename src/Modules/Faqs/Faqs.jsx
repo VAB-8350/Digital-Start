@@ -31,7 +31,7 @@ const faqsInfo = [
 export default function Faqs() {
   return (
     <section className={`container ${Style['faq-section']}`}>
-      <h2 className='subtitle'>Preguntas Frecuentes</h2>
+      <h2 id='faqs' className='subtitle'>Preguntas Frecuentes</h2>
 
       <div>
         {

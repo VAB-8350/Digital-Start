@@ -26,11 +26,11 @@ export default function FirstView() {
       </div>
 
       <div className={Style.information}>
-        <h1>Esto es texto de relleno...</h1>
+        <h1>Aún no tienes tu página web?</h1>
 
         <div>
           <p>
-            Lorem ipsum dolor sit amet, consect elit. Provident, quisquam officia voluptatem eius ab blanditiis? Optio ullam nulla consectetur ut sunt. Temporibus, ea placeat consequatur iusto nostrum quasi alias.
+            El mundo está más digitalizado que nunca, no pierdas la oportunidad de tener presencia online y llegar a más clientes, mejorando tu marca y la experiencia de tus usuarios.
           </p>
         </div>
 
